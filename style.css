@@ -65,7 +65,7 @@ header {
 
 .menu {
     grid-area: menu;
-    min-width: 150px;
+    
     margin-left: auto;
 }
 
@@ -124,6 +124,10 @@ main {
     font-weight: 500;
     max-width: 500px;
     margin-top: 10px;
+}
+
+.contrast {
+    color: #0091FF;
 }
 
 @media (max-width: 736px) {
