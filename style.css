@@ -93,14 +93,14 @@ header {
     font-weight: 700;
     font-size: 14px;
     text-decoration: none;
-    background: #0091FF;
+    background: #6807f9;
     border-radius: 5px;
     transition: all 0.3s ease-out;
     letter-spacing: -.38px;
 }
 
 .signup_button:hover {
-    background: #0066b3;
+    background: #5306c7;
 }
 
 main {
