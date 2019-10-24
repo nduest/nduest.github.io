@@ -1,3 +1,10 @@
+:root {
+    --main-bg-color: #000;
+    --light-bg-color: #333333;
+    --light-bg-text: #696969;
+    --light-text: #CCCCCC;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,9 +12,11 @@
 }
 
 body {
-    background: #fff;
+    background: var(--main-bg-color);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    height: 100vh;
+    color: #B6B6B6;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .container {
@@ -23,9 +32,9 @@ header {
     display: grid;
     grid-template-columns: 150px minmax(20px, 1fr) 1fr minmax(20px, 1fr) minmax(1fr, 150px);
     grid-template-areas: "logo . search . menu";
-    background: #fff;
+    background: var(--main-bg-color);
     min-height: 64px;
-    border-bottom: 1px solid #F9F9F9;
+    border-bottom: 1px solid #252525;
     width: 100%;
     align-items: center;
     padding: 0 20px;
@@ -36,11 +45,11 @@ header {
     font-weight: 600;
     font-size: 20px;
     letter-spacing: -0.9px;
-    flex: 0;
+    color: #fff;
 }
 
 .logo a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -52,10 +61,10 @@ header {
     width: 100%;
     border: none;
     min-height: 40px;
-    background: #F6F6F6;
+    background: var(--light-bg-color);
     border-radius: 5px;
     padding: 0 15px;
-    color: #C5C5C5;
+    color: var(--light-bg-text);
     font-size: 16px;
     font-weight: 700;
     letter-spacing: -0.38px;
@@ -68,19 +77,20 @@ header {
 }
 
 .login_button {
-    color: #444444;
+    color: var(--light-text);
     padding: 10px;
     font-weight: 700;
     font-size: 14px;
     text-decoration: none;
-    background: #F6F6F6;
+    background: var(--light-bg-color);
     border-radius: 5px;
     margin-right: 5px;
     transition: all 0.3s ease-out;
 }
 
 .login_button:hover {
-    background: #dddddd;
+    background: #242424;
+    color: #fff;
 }
 
 .signup_button {
@@ -95,7 +105,7 @@ header {
 }
 
 .signup_button:hover {
-    background: #0083e6;
+    background: #0066b3;
 }
 
 main {
@@ -104,18 +114,18 @@ main {
     margin: 50px auto;
 }
 
-main h1 {
+.heading {
     font-size: 76px;
-    color:#222;
+    color:#fff;
     font-weight: 700;
     letter-spacing: -4px;
 }
 
-main h2 {
+.subtext {
     font-size: 22px;
     line-height: 32px;
     letter-spacing: -.04em;
-    color:#B6B6B6;
+    color:#787878;
     font-weight: 500;
     max-width: 500px;
     margin-top: 10px;
@@ -130,12 +140,12 @@ main h2 {
         margin-top: 10px;
     }
 
-    main h1 {
+    .heading {
         font-size: 50px;
         letter-spacing: -3px;
     }
 
-    main h2 {
+    .subtext {
         font-size: 20px;
     }
 }
