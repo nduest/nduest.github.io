@@ -73,7 +73,7 @@ header {
     color: #CCCCCC;
     padding: 10px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     background: #333333;
     border-radius: 5px;
@@ -93,7 +93,7 @@ header {
     color: #fff;
     padding: 10px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     background: #6807f9;
     border-radius: 5px;
@@ -151,5 +151,7 @@ main {
     .subtext {
         font-size: 20px;
     }
+
+
 }
   
