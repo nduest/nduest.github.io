@@ -72,7 +72,7 @@ header {
 .login_button {
     color: #CCCCCC;
     padding: 10px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
     text-decoration: none;
     background: #333333;
@@ -92,7 +92,7 @@ header {
 .signup_button {
     color: #fff;
     padding: 10px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
     text-decoration: none;
     background: #6807f9;
