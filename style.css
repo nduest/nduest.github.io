@@ -86,10 +86,10 @@ header {
     border-bottom: 1px solid #252525;
     display: inline-block;
     background: #141414;
-	white-space: nowrap;
-	overflow-y: hidden;
-	overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
+    box-sizing: content-box;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 .submenu::-webkit-scrollbar {
@@ -184,6 +184,10 @@ main {
     margin-top: 10px;
 }
 
+.burger {
+    fill: #fff;
+}
+
 .contrast {
     color: #0091FF;
 }
@@ -228,4 +232,7 @@ main {
     }
 
 }
+
+
+
 
