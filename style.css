@@ -78,7 +78,6 @@ header {
 }
 
 .submenu {
-    width: 100%;
     min-height: 42px;
     grid-area: submenu;
     text-align: center;
