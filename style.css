@@ -86,10 +86,10 @@ header {
     padding: 10px 20px;
     border-bottom: 1px solid #252525;
 
-    white-space: nowrap; 
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; 
-    -ms-overflow-style: -ms-autohiding-scrollbar; 
+	white-space: nowrap;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 .submenu::-webkit-scrollbar {
