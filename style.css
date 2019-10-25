@@ -85,6 +85,7 @@ header {
     font-size: 18px;
     padding: 10px 20px;
     border-bottom: 1px solid #252525;
+    display: inline-block;
 
 	white-space: nowrap;
 	overflow-y: hidden;
