@@ -4,6 +4,11 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+@font-face { 
+    font-family: "IvarText"; 
+    src: url("IvarTextHydro-Regular.ttf"); 
+    }
+
 * {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -93,7 +98,10 @@ header nav ul li a:hover {
 }
 
 .limit {
-    font-size: 1.2em;
+    font-size: 1.25em;
+    font-family: IvarText;
+    letter-spacing: -0.2px;
+    line-height: 1.4em;
 }
 
 @media only screen and (min-width: 768px) {
