@@ -98,7 +98,7 @@ header nav ul li a:hover {
 }
 
 .limit {
-    font-size: 1.25em;
+    font-size: 1.15em;
     font-family: IvarText;
     letter-spacing: -0.2px;
     line-height: 1.4em;
@@ -118,6 +118,10 @@ header nav ul li a:hover {
 
     .redesign {
         font-size: .95em;
+    }
+
+    .limit {
+        font-size: 1.25em;
     }
 
   }
