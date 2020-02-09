@@ -1,90 +1,114 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: greyscale;
+}
+
+body {
+    color: rgba(0,0,0,0.77);
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 .5em 0 .5em;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header h3 {
+    font-weight: 600;
+    font-size: 1em;
+    color: rgba(0,0,0,0.77);
+    letter-spacing: -.7px;
+    margin: .4em 0 .2em 0;
+}
+
+header h3 a {
+    color: rgba(0,0,0,0.77);
+    text-decoration: none;
+}
+
+header h3 a:hover {
+    color: #4169e1;
+    text-decoration: none;
+}
+
+nav {
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: 0 0 1.2em 0;
+}
+
+header nav ul {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
-
-  .page {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .section {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .menu {
-    background-color: #5995DA;
-    height: 80px;
-  }
-  
-  .header {
-    background-color: #B2D6FF;
-  }
-  
-  .content {
-    background-color: #EAEDF0;
-    height: 600px;
-  }
-  
-  .sign-up {
-    background-color: #D6E9FE;
-  }
-  
-  .feature-1 {
-    background-color: #F5CF8E;
-  }
-  
-  .feature-2 {
-    background-color: #F09A9D;
-  }
-  
-  .feature-3 {
-    background-color: #C8C6FA;
-  }
-  
-  /* Mobile Styles */
-  @media only screen and (max-width: 400px) {
-    body {
-      background-color: #F09A9D; 
-    }
-  }
-  
-  /* Tablet Styles */
-  @media only screen and (min-width: 401px) and (max-width: 960px) {
-    .sign-up,
-  .feature-1,
-  .feature-2,
-  .feature-3 {
-    width: 50%;
-  }
 }
-  
-  /* Desktop Styles */
-  @media only screen and (min-width: 961px) {
-    .page {
-        width: 960px;
-        margin: 0 auto;
-      }
-      .feature-1,
-      .feature-2,
-      .feature-3 {
-        width: 33.3%;
-      }
-      .header {
-        height: 400px;
-      }
 
-      .sign-up {
-          order: 1;
-      }
+header nav ul li {
+    list-style: none;
+    display: inline;
+}
 
-      .content {
-          order: 2;
-      }
+header nav ul li:not(:last-child) {
+    margin: 0 .6em 0 0;
+}
+
+header nav ul li a {
+    color: rgba(0,0,0,0.77);
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #4169e1;
+}
+
+.redesign {
+    background-color:bisque;
+    padding: 0.4em 0 0.4em 0;
+    text-align: center;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    font-size: .85em;
+    margin-bottom: 2em;
+}
+
+.redesign a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgba(0,0,0,0.20);
+}
+
+.limit {
+    
+}
+
+@media only screen and (min-width: 800px) {
+
+    header h3 {
+        font-weight: 600;
+        font-size: 1.125em;
+    }
+
+    nav {
+        text-align: left;
+        font-size: 1.125em;
+    }
+
+    .redesign {
+        font-size: .95em;
+    }
+
   }
-  
