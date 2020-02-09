@@ -19,6 +19,13 @@ body {
     color: rgba(0,0,0,0.77);
 }
 
+a {
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
 .container {
     max-width: 720px;
     margin: 0 auto;
@@ -96,6 +103,10 @@ header nav ul li a:hover {
     text-decoration: underline;
     text-decoration-color: rgba(0,0,0,0.20);
     font-weight: 600;
+}
+
+.redesign a:hover {
+    color: #4169e1;
 }
 
 .limit {
