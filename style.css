@@ -109,11 +109,31 @@ header nav ul li a:hover {
     color: #4169e1;
 }
 
-.limit {
+.profile {
     font-size: 1.15em;
     font-family: IvarText;
     letter-spacing: -0.2px;
     line-height: 1.4em;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile img {
+    display:block;
+    border-radius:100%;
+    width:200px;
+    margin:0 0 2em 0;
+}
+
+.curriculum {
+    font-size: 1.15em;
+    font-family: IvarText;
+    letter-spacing: -0.2px;
+    line-height: 1.4em;
+}
+
+.curriculum h3 {
+    font-family: 'Inter var', sans-serif; 
 }
 
 @media only screen and (min-width: 768px) {
@@ -132,8 +152,16 @@ header nav ul li a:hover {
         font-size: .95em;
     }
 
-    .limit {
+    .profile {
         font-size: 1.25em;
+        flex-direction: row;
+    }
+
+    .profile img {
+        display:block;
+        border-radius:100%;
+        min-width:200px;
+        margin:0 2em 2em 0;
     }
 
   }
