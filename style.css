@@ -161,6 +161,7 @@ header nav ul li a:hover {
         display:block;
         border-radius:100%;
         min-width:200px;
+        align-self: center;
         margin:0 2em 2em 0;
     }
 
