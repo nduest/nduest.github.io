@@ -136,6 +136,38 @@ header nav ul li a:hover {
     font-family: 'Inter var', sans-serif; 
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #1e1f23;
+      color: rgba(255,255,255, 0.9);
+    }
+
+    header nav ul li a {
+        color: rgba(255,255,255, 0.9);
+        text-decoration: none;
+    }
+    
+    header nav ul li a:hover {
+        color: #4169e1;
+    }
+
+    header h3 a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    header h3 a:hover {
+        color: #4169e1;
+        text-decoration: none;
+    }
+
+    .redesign {
+        color: rgba(0,0,0,0.77);
+    }
+
+  }
+  
+
 @media only screen and (min-width: 768px) {
 
     header h3 {
